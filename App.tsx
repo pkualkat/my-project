@@ -19,3 +19,6 @@ const styles = StyleSheet.create({
   },
   text: { fontWeight: "bold" },
 });
+import { activateKeepAwakeAsync } from 'expo-keep-awake';
+
+activateKeepAwakeAsync();
